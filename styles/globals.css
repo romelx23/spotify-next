@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebar{
+    @apply w-0 -translate-x-40 sm:w-52 sm:translate-x-0 sm:block  min-h-screen bg-black p-5 text-sm text-gray-500
+}
+
+.btn{
+    @apply flex items-center space-x-2 hover:text-white transition w-full
+}
